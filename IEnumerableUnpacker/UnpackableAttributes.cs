@@ -1,4 +1,6 @@
-﻿using System;
+﻿/*
+
+using System;
 namespace IEnumerableUnpacker;
 [AttributeUsage(AttributeTargets.Class, Inherited = false)]
 public class UnpackableAttribute : Attribute
@@ -15,3 +17,5 @@ public class UnpackAttribute : Attribute
         OutputName = outputName;
     }
 }
+
+*/
