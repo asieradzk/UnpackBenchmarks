@@ -9,7 +9,7 @@ This project compares the performance of various methods for unpacking `IEnumera
 2. `UnpackMeSimd`: Utilizes SIMD instructions for parallelization.
 3. `UnpackMeCopyUnaligned`: Uses `Unsafe.CopyBlockUnaligned` for unaligned memory copy of blittable types.
 4. `UnpackMeCopyUnalignedParallelFor`: Combines `Unsafe.CopyBlockUnaligned` with parallel processing using `Parallel.For`.
-5. `UnpackMeCopyUnalignedTaskScheduler`: Similar to `UnpackMeCopyUnalignedParallelFor`, but uses a custom task scheduler.
+5. `UnpackMeCopyUnalignedTaskScheduler`: Similar to `UnpackMeCopyUnalignedParallelFor`, but uses a task scheduler.
 6. `UnpackMeParallelFor`: Utilizes `Parallel.For` for parallelization without `Unsafe.CopyBlockUnaligned`.
 7. `UnpackMeParallelForNested`: Uses nested `Parallel.For` loops for parallelization.
 8. `UnpackMeGenerated`: Generated method using source generators.
